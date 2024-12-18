@@ -1,0 +1,12 @@
+In command line and within this folder:
+
+
+>>> rustc file.rs
+>>> cargo init
+>>> cargo build
+>>> cargo run
+
+
+The Cargo.toml file generated must include any dependencies:
+In the line under [dependencies], type the following:
+rayon = "1.7"
